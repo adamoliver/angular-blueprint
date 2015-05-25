@@ -1,0 +1,34 @@
+{
+  "name": "angular_blueprint",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Oliver <mail@adamoliver.net>"
+  ],
+  "description": "A blueprint for Angular JS prototypes",
+  "main": "prototype/dist/app.js",
+  "keywords": [
+    "Angular",
+    "JS",
+    "Blueprint",
+    "Prototype"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "lodash": "~3.9.2",
+    "moment": "~2.10.3",
+    "angular-ui-router": "~0.2.15",
+    "restangular": "~1.5.1",
+    "angular-moment": "~0.10.1",
+    "angular-mocks": "~1.3.15",
+    "bootstrap": "~3.3.4"
+  }
+}
